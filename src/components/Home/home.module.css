@@ -4,6 +4,7 @@
   width: 100%;
   background: linear-gradient(to right, #00246B, #CADCFC);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -48,3 +49,16 @@
 .btnstyle:hover{
   background-color: #0056b3;
 }
+
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: #CADCFC;
+  border-radius: 5px;
+  padding: 20px;
+  margin: auto;
+}
+
+/* style={{display:"flex", justifyContent:'space-evenly', alignItems:'center', padding:25,backgroundColor:'#CADCFC'}} */

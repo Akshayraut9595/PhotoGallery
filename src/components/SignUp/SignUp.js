@@ -41,7 +41,7 @@ function SignUp() {
   return (
     <div className={styles.container}>
       <div className={styles.innerBox}>
-        <h1 className={styles.heading}>Sing Up</h1>
+        <h1 className={styles.heading}>Sign Up</h1>
 
         <InputControl
           label="Name"
@@ -52,7 +52,7 @@ function SignUp() {
         />
         <InputControl
           label="Email"
-          placeholder="Enter eamil address"
+          placeholder="Enter email address"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, email: event.target.value }))
           }

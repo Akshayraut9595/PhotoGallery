@@ -53,7 +53,7 @@ function Login() {
       <div className={styles.innerBox}>
         <h1 className={styles.heading}>Login</h1>
 
-        <InputControl label="Email" placeholder="Enter eamil address" onChange={(event) =>
+        <InputControl label="Email" placeholder="Enter email address" onChange={(event) =>
             setValues((prev) => ({ ...prev, email: event.target.value }))
           }/>
         <InputControl type="password" label="Password" placeholder="Enter password" onChange={(event) =>
